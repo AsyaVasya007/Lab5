@@ -1,8 +1,3 @@
-/**
- * Универсальный класс для внедрения зависимостей в аннотированные поля.
- *
- * @param <T> Тип объекта, в который будут внедрены зависимости.
- */
 package com.company;
 import java.io.File;
 import java.io.FileInputStream;
@@ -10,7 +5,11 @@ import java.io.IOException;
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.util.Properties;
-
+/**
+ * Универсальный класс для внедрения зависимостей в аннотированные поля.
+ *
+ * @param <T> Тип объекта, в который будут внедрены зависимости.
+ */
 public class Injector<T> {
 
     /**
